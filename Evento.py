@@ -12,5 +12,5 @@ class Evento:
 		self.tipo = tipo
 
 	def inserirLocal(self,local):
-		if local isinstance(local, Local):
-			self.local = local
+		#if local isinstance (local, Local):
+		self.local = local
