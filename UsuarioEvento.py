@@ -7,9 +7,9 @@ class UsuarioEvento:
 
 
 	def inserirEvento(self, evento):
-		if evento isinstance(evento, Evento):
-			self.evento = evento
+		#if evento isinstance(evento, Evento):
+		self.evento = evento
 
 	def inserirUsuario(self,usuario):
-		if usuario isinstance(usuario, Usuario):
-			self.usuario[] += usuario
+		#if usuario isinstance(usuario, Usuario):
+		self.usuario = usuario
