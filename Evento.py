@@ -1,3 +1,4 @@
+from ProjetoLabOO.Local import Local
 
 class Evento:
 	def __init__(self, idu, certificacao, data, dias, empresas, finalidade, nome, palestrante, tipo):
@@ -12,5 +13,5 @@ class Evento:
 		self.tipo = tipo
 
 	def inserirLocal(self,local):
-		#if local isinstance (local, Local):
-		self.local = local
+		if isinstance (local, Local):
+			self.local = local

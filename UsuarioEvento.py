@@ -1,3 +1,6 @@
+from ProjetoLabOO.Usuario import Usuario
+from ProjetoLabOO.Evento import Evento
+
 class UsuarioEvento:
 	def __init__(self, idu, data, hora, pessoasconfirmadas):
 		self.idu = idu
@@ -7,9 +10,9 @@ class UsuarioEvento:
 
 
 	def inserirEvento(self, evento):
-		#if evento isinstance(evento, Evento):
-		self.evento = evento
+		if isinstance(evento, Evento):
+			self.evento = evento
 
 	def inserirUsuario(self,usuario):
-		#if usuario isinstance(usuario, Usuario):
-		self.usuario = usuario
+		if isinstance(usuario, Usuario):
+			self.usuario = usuario
